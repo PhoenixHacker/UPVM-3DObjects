@@ -22,8 +22,7 @@ class ViewController: UIViewController, ARSKViewDelegate {
     
     let images4 = ["InformaticaQR" : ImageInformation(name: "Edificio A", description: "El Edificio A fue el primer edifico construido en el año 2006, actualmente es usado por la carrera de Informatica y aloja algunos de los diferentes servicios y plataformas digitales para los alumnos, Tambien se encuentra la seccion de Control escolar, la cual se encarga de administrar el control estudiantil.", image: UIImage(named: "InformaticaFoto")!) ]
     
-    let images5 = [""]
-    
+   
     
     
     override func viewDidLoad() {
