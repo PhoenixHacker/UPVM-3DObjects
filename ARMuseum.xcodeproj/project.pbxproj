@@ -20,6 +20,10 @@
 		580981FA228FCEF700387228 /* ARKit-Badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 580981F9228FCEF700387228 /* ARKit-Badge.png */; };
 		580981FC228FD14F00387228 /* Scene3DVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580981FB228FD14F00387228 /* Scene3DVC.swift */; };
 		5809821E2290CFCD00387228 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5809821D2290CFCD00387228 /* GameView.swift */; };
+		581EC3BE22A0DB7100291C3A /* AdministracionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EC3BD22A0DB7100291C3A /* AdministracionVC.swift */; };
+		581EC3C122A0DB8900291C3A /* CafeteriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EC3C022A0DB8900291C3A /* CafeteriaVC.swift */; };
+		581EC3C322A0DB9700291C3A /* GymVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EC3C222A0DB9700291C3A /* GymVC.swift */; };
+		581EC3C522A0DBA300291C3A /* AuroraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581EC3C422A0DBA300291C3A /* AuroraVC.swift */; };
 		5865C41322A03965006DEB2F /* InformaticaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5865C41222A03965006DEB2F /* InformaticaVC.swift */; };
 		58D14FD522962DD200907FB9 /* RectoriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D14FD422962DD200907FB9 /* RectoriaVC.swift */; };
 		58D14FD7229633CF00907FB9 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58D14FD6229633CF00907FB9 /* maxresdefault.jpg */; };
@@ -42,6 +46,10 @@
 		580981F9228FCEF700387228 /* ARKit-Badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARKit-Badge.png"; sourceTree = "<group>"; };
 		580981FB228FD14F00387228 /* Scene3DVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3DVC.swift; sourceTree = "<group>"; };
 		5809821D2290CFCD00387228 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		581EC3BD22A0DB7100291C3A /* AdministracionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdministracionVC.swift; sourceTree = "<group>"; };
+		581EC3C022A0DB8900291C3A /* CafeteriaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeteriaVC.swift; sourceTree = "<group>"; };
+		581EC3C222A0DB9700291C3A /* GymVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymVC.swift; sourceTree = "<group>"; };
+		581EC3C422A0DBA300291C3A /* AuroraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraVC.swift; sourceTree = "<group>"; };
 		5865C41222A03965006DEB2F /* InformaticaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformaticaVC.swift; sourceTree = "<group>"; };
 		58D14FD422962DD200907FB9 /* RectoriaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectoriaVC.swift; sourceTree = "<group>"; };
 		58D14FD6229633CF00907FB9 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
@@ -97,6 +105,38 @@
 			path = ARMuseum;
 			sourceTree = "<group>";
 		};
+		581EC3BA22A0DB3A00291C3A /* Administracion */ = {
+			isa = PBXGroup;
+			children = (
+				581EC3BD22A0DB7100291C3A /* AdministracionVC.swift */,
+			);
+			path = Administracion;
+			sourceTree = "<group>";
+		};
+		581EC3BB22A0DB4400291C3A /* Cafeteria */ = {
+			isa = PBXGroup;
+			children = (
+				581EC3C022A0DB8900291C3A /* CafeteriaVC.swift */,
+			);
+			path = Cafeteria;
+			sourceTree = "<group>";
+		};
+		581EC3BC22A0DB5800291C3A /* Gym */ = {
+			isa = PBXGroup;
+			children = (
+				581EC3C222A0DB9700291C3A /* GymVC.swift */,
+			);
+			path = Gym;
+			sourceTree = "<group>";
+		};
+		581EC3BF22A0DB7700291C3A /* Aurora */ = {
+			isa = PBXGroup;
+			children = (
+				581EC3C422A0DBA300291C3A /* AuroraVC.swift */,
+			);
+			path = Aurora;
+			sourceTree = "<group>";
+		};
 		5865C41122A038D8006DEB2F /* Informatica */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +148,10 @@
 		58D14FD122962D4F00907FB9 /* SCENEViews */ = {
 			isa = PBXGroup;
 			children = (
+				581EC3BF22A0DB7700291C3A /* Aurora */,
+				581EC3BC22A0DB5800291C3A /* Gym */,
+				581EC3BB22A0DB4400291C3A /* Cafeteria */,
+				581EC3BA22A0DB3A00291C3A /* Administracion */,
 				5865C41122A038D8006DEB2F /* Informatica */,
 				58D14FD322962D7600907FB9 /* Rectoria */,
 				58D14FD222962D6D00907FB9 /* Biblioteca */,
@@ -210,6 +254,10 @@
 				003D4AB420836F2E00C6E4A0 /* ViewController.swift in Sources */,
 				003D4AB220836F2E00C6E4A0 /* Scene.swift in Sources */,
 				58D14FD522962DD200907FB9 /* RectoriaVC.swift in Sources */,
+				581EC3C322A0DB9700291C3A /* GymVC.swift in Sources */,
+				581EC3C522A0DBA300291C3A /* AuroraVC.swift in Sources */,
+				581EC3C122A0DB8900291C3A /* CafeteriaVC.swift in Sources */,
+				581EC3BE22A0DB7100291C3A /* AdministracionVC.swift in Sources */,
 				003D4AAE20836F2E00C6E4A0 /* AppDelegate.swift in Sources */,
 				5865C41322A03965006DEB2F /* InformaticaVC.swift in Sources */,
 				580981FC228FD14F00387228 /* Scene3DVC.swift in Sources */,
