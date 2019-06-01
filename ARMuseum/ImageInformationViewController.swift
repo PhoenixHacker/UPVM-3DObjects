@@ -38,6 +38,27 @@ class ImageInformationViewController : UIViewController {
             self.present(controller, animated: true, completion: nil)
             
         }
+        else if nameLabel.text == "Cafeteria" {
+            let controller = storyboard.instantiateViewController(withIdentifier: "cafeteriaid")
+            self.present(controller, animated: true, completion: nil)
+            
+        }
+        else if nameLabel.text == "Edificio D" {
+            let controller = storyboard.instantiateViewController(withIdentifier: "AuroraVC")
+            self.present(controller, animated: true, completion: nil)
+            
+        }
+        else if nameLabel.text == "Admininstracion" {
+            let controller = storyboard.instantiateViewController(withIdentifier: "administracionid")
+            self.present(controller, animated: true, completion: nil)
+            
+        }
+        else if nameLabel.text == "Gimnasio" {
+            let controller = storyboard.instantiateViewController(withIdentifier: "gymid")
+            self.present(controller, animated: true, completion: nil)
+            
+        }
+       
        
     }
     

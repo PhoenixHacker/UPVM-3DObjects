@@ -140,6 +140,62 @@
             </objects>
             <point key="canvasLocation" x="2212" y="393"/>
         </scene>
+        <!--CafeteriaVC-->
+        <scene sceneID="P9a-G1-S0U">
+            <objects>
+                <viewController storyboardIdentifier="cafeteriaid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Cg-Et-Lt3" customClass="CafeteriaVC" customModule="ARMuseum" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="RKD-MM-dT4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </sceneKitView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uo6-W7-IyZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2985" y="403"/>
+        </scene>
+        <!--GymVC-->
+        <scene sceneID="C9Y-3D-l4J">
+            <objects>
+                <viewController storyboardIdentifier="gymid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mqa-uu-sxh" customClass="GymVC" customModule="ARMuseum" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="1NU-5l-GWc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </sceneKitView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i8N-Kp-mdJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3681" y="-267"/>
+        </scene>
+        <!--AdministracionVC-->
+        <scene sceneID="PRy-tV-Kud">
+            <objects>
+                <viewController storyboardIdentifier="administracionid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lka-p4-d2C" customClass="AdministracionVC" customModule="ARMuseum" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="fgJ-ES-iaR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </sceneKitView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxs-Y6-9gO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3681" y="403"/>
+        </scene>
+        <!--AuroraVC-->
+        <scene sceneID="Vd4-gg-DHW">
+            <objects>
+                <viewController storyboardIdentifier="auroraid" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QwZ-ZY-98b" customClass="AuroraVC" customModule="ARMuseum" customModuleProvider="target" sceneMemberID="viewController">
+                    <sceneKitView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="J5A-zz-wUP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </sceneKitView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7h4-L6-3aK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4362" y="89"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ARKit-Badge" width="308" height="162"/>

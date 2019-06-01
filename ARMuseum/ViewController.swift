@@ -18,14 +18,16 @@ class ViewController: UIViewController, ARSKViewDelegate {
     
     let images = ["rectoria" : ImageInformation(name: "Edificio F", description: "Aqui son oficinas mas que nada, lugar donde la gente viene a morir y a re inscribirse, si, este texto es de prueba, me pregunto si han solo seguia vivo?", image: UIImage(named: "maxresdefault")!)]
    
-    let images2 = ["steve" : ImageInformation(name: "Steve Jobs", description: "In Memory of you - Athos", image: UIImage(named: "steve")!)]
+    let images2 = ["steve" : ImageInformation(name: "Steve Jobs", description: "In Memory of you ", image: UIImage(named: "steve")!)]
     
     let images3 = ["BibliotecaQR" : ImageInformation(name: "Biblioteca", description: "La biblioteca de la Universidad Politecnica del Valle de Mexico, equipada con computadoras y libros enforcados en las diferentes carreras impartidas en la institución. Facil acceso, libre del humo de cigarro, cubiculos de estudio para los alumnos y profesores, internet de alta velocidad, renta de software, peliculas, musica , etc, sala de conferencias, tambien se realizan actividades culturales como presentacion de libros y autores.", image: UIImage(named: "BibliotecaUPVM")!)]
     
     let images4 = ["InformaticaQR" : ImageInformation(name: "Edificio A", description: "El Edificio A fue el primer edifico construido en el año 2006, actualmente es usado por la carrera de Informatica y aloja algunos de los diferentes servicios y plataformas digitales para los alumnos, Tambien se encuentra la seccion de Control escolar, la cual se encarga de administrar el control estudiantil.", image: UIImage(named: "InformaticaFoto")!) ]
     
-   
-    
+    let images5 = ["CafeteriaQR" : ImageInformation(name: "Cafeteria", description: "",image: UIImage(named: "cafeteria")!)]
+    let images6 = ["AuroraQR" : ImageInformation(name: "Edificio D", description: "", image: UIImage(named: "aurora")!)]
+    let images7 =  ["AdministracionQR" : ImageInformation(name: "Admininstracion", description: "", image: UIImage(named: "administracion")!)]
+    let images8 =  ["gym" : ImageInformation(name: "Gimnasio", description: "El gym", image: UIImage(named: "gimnasio")!)]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,6 +88,38 @@ class ViewController: UIViewController, ARSKViewDelegate {
         else if let imageAnchor = anchor as? ARImageAnchor,
         let refereneImageName = imageAnchor.referenceImage.name,
             let scannedImage = self.images4[refereneImageName]{
+            self.selectedImage = scannedImage
+            self.performSegue(withIdentifier: "showImageInformation", sender: self)
+            self.viewDidLoad()
+        }
+        
+        else if let imageAnchor = anchor as? ARImageAnchor,
+            let refereneImageName = imageAnchor.referenceImage.name,
+            let scannedImage = self.images5[refereneImageName]{
+            self.selectedImage = scannedImage
+            self.performSegue(withIdentifier: "showImageInformation", sender: self)
+            self.viewDidLoad()
+        }
+        
+        else if let imageAnchor = anchor as? ARImageAnchor,
+            let refereneImageName = imageAnchor.referenceImage.name,
+            let scannedImage = self.images6[refereneImageName]{
+            self.selectedImage = scannedImage
+            self.performSegue(withIdentifier: "showImageInformation", sender: self)
+            self.viewDidLoad()
+        }
+        
+        else if let imageAnchor = anchor as? ARImageAnchor,
+            let refereneImageName = imageAnchor.referenceImage.name,
+            let scannedImage = self.images7[refereneImageName]{
+            self.selectedImage = scannedImage
+            self.performSegue(withIdentifier: "showImageInformation", sender: self)
+            self.viewDidLoad()
+        }
+        
+        else if let imageAnchor = anchor as? ARImageAnchor,
+            let refereneImageName = imageAnchor.referenceImage.name,
+            let scannedImage = self.images8[refereneImageName]{
             self.selectedImage = scannedImage
             self.performSegue(withIdentifier: "showImageInformation", sender: self)
             self.viewDidLoad()
